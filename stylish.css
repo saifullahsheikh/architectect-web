@@ -1,0 +1,458 @@
+   *{
+    margin: 0;
+    padding: 0;
+   }
+   @font-face {
+    font-family: league;
+    src: url(League_Spartan/LeagueSpartan-VariableFont_wght.ttf);
+   }
+   h1{
+    font-family: league;
+   }
+   h2{
+    font-size: 45px;
+    font-weight: 700;
+    font-family: league;
+   }
+   h3{
+    font-size: 32px;
+    font-family: league;
+    font-weight: 500;
+   }
+
+   .main-nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.137);
+    padding:0px 30px;
+    height: 80px;
+    position: relative;
+    align-items: center;
+   }
+  .flex{
+    display: flex;
+  }
+  .iconham{
+    display: none;
+  }
+   .logo{
+    width: 15%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+   }
+
+   .logo img{
+    width: 80%;
+   }
+   .archi{
+    justify-content: center;
+   }
+
+   .menu{
+    width: 65%;
+  padding: 10px 0px;
+
+   }
+
+   .menu{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+
+   }
+
+   .menu  li a {
+    color: black;
+     text-decoration: none;
+   }
+   .contact{
+    display: flex;
+    transition: transform 1s cubic-bezier(.41,.27,.21,.79);
+    position: relative;
+    justify-content: end;
+    width: 20%;
+   }
+   .button-nav{
+    background-color: black;
+    padding: 10px 30px;
+    border: solid 2px black;
+    border-radius:0;
+    color: white;
+   }
+
+   
+   .button-nav:hover{
+    background-color: white;
+    color: black;
+   }
+
+   .see-web{
+    /* background-color: black; */
+    margin-top: 20px;
+    padding: 6px 20px;
+    border: solid 2px black;
+    border-radius:0;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    border: solid 1px #1e1e1e3d;
+
+   }
+
+  
+   .see-web:hover{
+    background-color: rgb(0, 0, 0);
+ 
+    color: rgb(255, 255, 255);
+   }
+
+
+   .img-call{
+    width: 40px ;
+    height: 40px;
+    border-radius: 50px;
+    padding: 10px 5px;
+    background-color: rgb(71, 55, 55);
+   }
+
+  .heading{
+    
+     display: flex;
+     padding: 100px 0px 10px 0px;
+     justify-content: center;
+  }
+   .h1-head{
+    font-size: 95px;
+    width: 800px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 600;
+   font-family:league;
+    line-height: 100px;
+   }
+
+
+
+   .image-main{
+  background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),   url(images/homebuilder.jpg);
+  background-size:100% 100%;
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+  object-position:  center;
+  /* clip-path: polygon(50% 0%, 81% 13%, 100% 9%, 100% 70%, 100% 100%, 11% 100%, 8% 91%, 0% 70%, 0% 35%, 0 0); */
+ display: flex;
+ align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-left: 33px;
+  flex-direction: column;
+  color: white;
+   }
+
+   .black-bg-img-main{
+    /* background-color: black; */
+    
+     text-align: center;
+    width: 50%;
+    color: white;
+    /* clip-path: polygon(85% 0, 100% 46%, 86% 100%, 0 100%, 0 0); */
+
+  padding: 20px 20px;
+  padding-right: 60px;
+   }
+   .buttons-2{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   gap: 30px;
+   padding-bottom: 20px;
+   }
+
+   .buttons-2 .contact-2{
+    background-color: black;
+    padding: 10px 30px;
+    border: solid 1px black;
+    border-radius:0;
+    color: white;
+   }
+   .contact-2:hover{
+    background-color: white;
+    border: 2px solid black;
+  color: black;
+   }
+   .book-call{
+    padding: 10px 30px;
+    color: black;
+    background-color: white;
+    /* border: 2px solid black; */
+   }
+   .book-call:hover{
+    background-color: black;
+    color: white;
+   }
+   .view-more{
+    padding: 10px 30px;
+    background-color: white;
+    position: relative;
+    border: 2px solid black;
+   }
+   .view-more:hover{
+    background-color: black;
+    color: white;
+   }
+
+   .sec-3{
+ width: 100%;
+   }
+
+   .sec3-iner1{
+    width: 100%;
+    padding: 40px 30px 20px 30px;
+    text-align: center;
+   }
+
+   .heading-h2{
+    font-weight: 600;
+    font-size: 39px;
+    text-transform: capitalize;
+   }
+
+   .box-3{
+   display: flex;
+   /* border: solid 2px blue; */
+   justify-content: space-between;
+   align-items: center;
+   padding:10px 30px;
+   gap: 30px;
+   }
+
+   .box-1-sec3{
+    width: 350px;
+    padding: 30px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 
+    0 -4px 6px rgba(0, 0, 0, 0.05),
+    4px 0 6px rgba(0, 0, 0, 0.07),
+    -4px 0 6px rgba(0, 0, 0, 0.07);
+       border-radius: 8px;
+    /* box-shadow: 3px 3px 3px 3px black; */
+    
+   }
+   .box-1-sec3 img{
+    width: 25%;
+
+   }
+   .box-1-sec3 h2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+     font-size:22px;
+     font-weight: 600;
+    
+   }
+    
+
+
+
+   .about-main{
+    width: 100%;
+    display: flex;
+    padding: 20px 30px 50px 30px;
+    gap: 50px;
+    flex-direction:row-reverse;
+
+   }
+   .ab-main1{
+    width:50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   }
+   .ab-main1 h2{
+    font-size: 42px;
+    font-weight: 700;
+   }
+   .ab-main1 h3{
+    font-size: 26px;
+   }
+   .ab-main1 .p{
+    margin-top: 30px;
+      width: 70%;
+
+   }
+   .ceo{
+    padding: 0px 10px;
+    margin-top: 50px;
+    border-left: 2px solid green;
+   }
+   .ceo h3{
+    font-size: 22px;
+    line-height: 20px;
+   }
+   .ab-main2{
+    width: 50%;
+    background: url(images/fdb08e2e-5d39-402c-ad0c-8a3293301d9e.png);
+    background-size: 100% 100%;
+    height: 65vh;
+    background-position: end;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    
+   }
+
+   .section-3{
+    padding:80px 30px;
+
+/*     
+    background-color: #F2DBCF; */
+   }
+
+   .sec-3iner{
+    width: 100%;
+    align-items: center;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+   }
+   .sec-3iner h2{
+    font-weight: 700;
+    font-size: 39px;
+    line-height: 40px;
+   }
+   .sec-3iner p {
+    width: 600px;
+    color: #1e1e1e;
+   }
+   .project-it{
+    font-weight: 600;
+     font-style: italic;
+     display: block;
+   }
+
+   .sec-3iner2{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+       column-gap:120px;
+        grid-template-rows: auto; 
+    align-items: center;
+    row-gap: 40px;
+    width: 100%;
+    /* border: solid 2px blue; */
+    padding: 10px 0px;
+   }
+   .iner2-box-1{
+    background-color: rgba(255, 255, 255, 0.651);
+    width: 350px;
+    border: solid 1px #1e1e1e3d;
+    /* border-radius: 20px; */
+    background-size: 100% 100%;
+    
+    background-size: 100% 100%;
+    position: relative;
+   
+  
+
+   }
+
+   .iner2-box-1 img{
+  width: 100%;
+  height: 70%;
+  /* clip-path: polygon(0% 15%, 0 0, 15% 0%, 85% 0%, 100% 0, 100% 15%, 100% 85%, 100% 100%, 82% 97%, 18% 97%, 0 100%); */
+
+  }
+.testi{
+  padding: 10px 15px;
+  
+
+}  
+.testi li{
+   font-size: 18px;
+   font-family: league;
+   list-style:disc;
+   /* text-align: end; */
+   font-weight: 600;
+}
+.testi p{
+  font-size: 16px;
+  color: #1e1e1e;
+}
+.sec4-main{
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(images/nooktook.jpeg);
+  height: 60vh;
+  width: 100%;
+  background-size: cover;
+
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+ text-align: center;
+}
+.sec4-iner h2{
+   font-size: 39px;
+   font-weight: 700;  margin-bottom: 20px;
+}
+
+.sec4-iner p{
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.book-call-2{
+  padding: 10px 30px;
+  background-color: white;
+  border: 2px solid rgb(255, 255, 255);
+  color: black;
+ }
+
+ .book-call-2:hover{
+  padding: 10px 30px;
+  background-color: rgb(0, 0, 0);
+  border: 2px solid rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+ }
+
+ .main-foot{
+  background-color: black;
+  width: 100%;
+  margin-top: 30px;
+
+ }
+ .foot-head{
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 10px;font-family: league;
+ }
+ .links-main{
+  padding: 50px 30px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+ }
+ .copyright{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 30px;
+
+ }
+ .copyright h3{
+  font-size: 16px;
+  color: white;
+  font-weight: 500;
+  font-family: league;
+ }
+
+ .social-links{
+  width: 300px;
+  color: white;
+ 
+  display: flex;
+   font-size: 24px;
+  gap: 20px;
+  justify-content: end;
+  align-items: center;
+ }
